@@ -1,0 +1,17 @@
+# This is a config for E2B sandbox template.
+# You can use template ID (6e8jpj9nki7hup8lg5f5) or template name (webify-nextjs-test-dev) to create a sandbox:
+
+# Python SDK
+# from e2b import Sandbox, AsyncSandbox
+# sandbox = Sandbox("webify-nextjs-test-dev") # Sync sandbox
+# sandbox = await AsyncSandbox.create("webify-nextjs-test-dev") # Async sandbox
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create('webify-nextjs-test-dev')
+
+team_id = "5f8339d0-928d-44b7-a1f7-149ec282a153"
+start_cmd = "/compile_page.sh"
+dockerfile = "e2b.Dockerfile"
+template_name = "webify-nextjs-test-dev"
+template_id = "6e8jpj9nki7hup8lg5f5"
